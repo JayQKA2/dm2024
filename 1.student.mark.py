@@ -41,7 +41,7 @@ def list_mark():
 number_of_students = int(input("The number of students: "))
 while number_of_students >= 50:
     print("Number of students exceeds the limit. you should do something with the extra students and re-enter the number of students here:")
-    number_of_students = int(input("Number of students (Remember, less than or equal to 50): "))
+    number_of_students = int(input("Number of students (Remember , less than or equal to 50): "))
 
 student_array = []
 for i in range(number_of_students):
